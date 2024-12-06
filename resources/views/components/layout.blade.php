@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
-    <h1>Welcome to laravel</h1>
+<body class="antialiased">
+    {{ $slot }}
 </body>
 </html>
